@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Roman Holiday Sauna, where relaxation meets luxury. Discover our world-class sauna services and facilities designed for your ultimate comfort.">
+    <title>Roman Holiday Sauna</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        header .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        header .nav-links li {
+            display: inline;
+        }
+        header .nav-links a {
+            color: #fff;
+            text-decoration: none;
+        }
+        header .cta {
+            background: #ff9800;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        #hero {
+            background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        #services, #about, #gallery, #contact {
+            padding: 20px;
+            text-align: center;
+        }
+        #services .services-container, #gallery .gallery-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        #services .service, #gallery img {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            width: 30%;
+        }
+        #gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        footer .social-links {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+        footer .social-links a {
+            color: #ff9800;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Roman Holiday Sauna</div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#booking" class="cta">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-text">
+                <h1>Experience the Art of Relaxation</h1>
+                <p>Step into serenity at Roman Holiday Sauna, where luxury and comfort meet.</p>
+                <a href="#booking" class="cta">Book Your Session</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service">
+                    <h3>Traditional Sauna</h3>
+                    <p>Relax and rejuvenate in our authentic wood-heated saunas.</p>
+                </div>
+                <div class="service">
+                    <h3>Steam Rooms</h3>
+                    <p>Clear your mind and skin with our invigorating steam experiences.</p>
+                </div>
+                <div class="service">
+                    <h3>Massage Therapy</h3>
+                    <p>Indulge in our therapeutic massages tailored to your needs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Roman Holiday Sauna has been a sanctuary for relaxation and wellness for over a decade. Our mission is to provide a luxurious escape from the everyday hustle, offering state-of-the-art facilities and exceptional service.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <img src="https://via.placeholder.com/300" alt="Luxurious sauna room">
+                <img src="https://via.placeholder.com/300" alt="Relaxing steam room">
+                <img src="https://via.placeholder.com/300" alt="Massage therapy session">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Roman Holiday Sauna. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
